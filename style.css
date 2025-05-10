@@ -1,0 +1,72 @@
+.ecran {
+    background-color: black;
+}
+
+.titlu {
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.text {
+    color: red;
+    font-size: 20px;
+}
+
+.danu {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.intrebare {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+.intrebatoare
+{
+    font-size: 50px;
+}
+.formular
+{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+.corect
+{
+    border: 1px solid green ;    /* grosime 1px, linie continuă, culoare #333 */
+    padding: 0.5rem;           /* spaţiu în interior */
+    margin: 0.5rem 0;          /* spaţiu sus/jos */
+    border-radius: 4px; 
+}
+.gresit
+{
+    border: 1px solid red ;    /* grosime 1px, linie continuă, culoare #333 */
+    padding: 0.5rem;           /* spaţiu în interior */
+    margin: 0.5rem 0;          /* spaţiu sus/jos */
+    border-radius: 4px; 
+}
+form {
+    width: 50%;
+    /* sau max-width: 90%; */
+    margin: 10rem auto;
+    /* sus‑jos 2rem, stânga‑dreapta auto */
+    padding: 5rem;
+    border-radius: 40px;
+    background-color: red;
+
+}
+
+.button {
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: black;
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 47px;
+    text-decoration: none;
+    margin-left: 160px;
+    font-size: 20px;
+}

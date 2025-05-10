@@ -1,1 +1,1 @@
-# arad
+The project presented at Concursul International de Matematica si Informatica "Caius Iacob" 

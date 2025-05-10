@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detectiv digital</title>
+    <style>
+      html, body 
+      {
+        height: 100%;
+        width: 99%;
+        background-color: beige;
+        color: red;
+        font-family:Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, serif;
+        animation: fadeIn 2s forwards;
+      }
+
+      .container
+      {
+        display: flex;
+        flex-direction: column;
+        height: 85%;
+        width: 100%;
+      }
+
+      .zona1
+      {
+        flex: 1;
+        display: inline-flex;
+        border-bottom: 1px solid red;
+      }
+
+      .titlu_mare
+      {
+        color: black;
+        font-size: 50px;
+        /* font-weight: bold; */
+        line-height: 40px;
+        margin-left: 30%;
+        font-family:Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, serif;
+      }
+
+      .zona2
+      {
+        flex: 9;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .zona21
+      {
+        flex: 1;
+       
+      }
+
+      .zona22{
+        flex: 1;
+        display: flex;
+      }
+
+
+      .area2
+      {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 600px;
+      }
+
+      .a1, .a2, .a3{
+        flex: 1;
+        margin: 100px;
+        background-color: black;
+      
+        border-radius: 30px;
+      }
+
+      .button
+      {
+        height: 50px;
+        width: 200px;
+        border-radius: 50px;
+        background-color: red;
+        display: block;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        line-height: 47px;
+        text-decoration: none;
+        margin-left: 160px;
+        font-size: 20px;
+        
+      }
+
+      .desciere
+      {
+        height: 350px;
+        width: 350px;
+        border: 1px solid black;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        margin: 100px;
+        margin-bottom: 20px;
+        border-radius: 30px;
+        background-color: black;
+      }
+
+      .imgg
+      {
+        border-top: 10px solid red;
+        border-right: 10px solid red;
+        border-top-right-radius: 30px;
+        border-radius: 30px;
+        margin-top: 80px;
+      }
+      
+      .button:hover
+      {
+        animation: marire 2s linear infinite ;
+      }
+
+      @keyframes marire{
+        0%
+        {
+          height: 50px;
+          width: 200px;
+        }
+
+        50%
+          {
+            height: 50px;
+            width: 220px;
+          }
+
+        100%
+        {
+          height: 50px;
+          width: 200px;
+        }
+      }
+
+
+       @keyframes fadeIn{
+        to {
+          opacity: 1;
+        }
+      }
+
+      .button1
+      {
+        height: 30px;
+        width: 100px;
+        border-radius: 50px;
+        background-color: red;
+        display: block;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        line-height: 25px;
+        text-decoration: none;
+        margin-left: 100px;
+        font-size: 15px;
+        margin-bottom: 3px;
+      }
+
+      p{
+        color: white;
+
+      }
+
+      h3{
+        color: red;
+      }
+
+      .footer
+      {
+        border-top: 1px solid red;
+        width: 100%;
+        height: 70px;
+        display: inline-flex;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="zona1">
+        <img src="logoo.jpg" height="100px">
+        <i class="titlu_mare">Detectiv digital. Navigare sigură  <br>prin  lumea informației digitale</i>
+      </div>
+
+      <div class="zona2">
+        <div class="zona21">
+          <div class="desciere">
+            <h2>Descriere</h2>
+            <p>„Detectiv digital” este o incursiune captivantă în lumea online, unde învățăm cum să recunoaștem informațiile false, să ne protejăm datele personale și să navigăm în siguranță pe internet. Prin exemple practice și metode interactive, devenim adevărați detectivi ai informației digitale, capabili să luăm decizii corecte și responsabile în mediul virtual.</p>
+          </div>
+          <a href="formular.html" class="button">Chestionar</a>
+        </div>
+
+        <div class="zona22">
+          <img src="img1.jpg" height="400px" width="500px" class="imgg">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="area2">
+      <div class="a1">
+        <h3 style="color: red;text-align: center;">Powerpoint</h3>
+        <p>Acest PowerPoint prezintă un ghid esențial despre știrile false în mediul online, evidențiind importanța informării corecte într-o lume digitală tot mai aglomerată de conținut manipulator.
+          <br>
+          Ce este o știre falsă, cum poate fi recunoscută și ce forme poate lua;
+          <br>
+          Pericolele reale la care suntem expuși atunci când distribuim sau credem în informații false — de la dezinformare în masă până la furt de date și manipulare socială;
+          <br>
+          & ETC
+          <br>
+          Acceseaza link-ul pentru a afla mai multe
+        </p>
+        <a href="Powerpoint.pptx" class="button1">Powerpoint</a>
+      </div>
+      
+      <div class="a2">
+        <h3 style="color: red;text-align: center;">Excel</h3>
+        <p>Acest fișier Excel oferă o analiză structurată și vizuală a comportamentului utilizatorilor în mediul online, cu accent pe fenomenul știrilor false și vulnerabilitatea diferitelor grupe de vârstă.
+
+          Documentul este organizat pe foi de calcul și include:
+          <br>
+          Tabele detaliate privind modul în care diferite grupe de vârstă interacționează cu conținutul online, timpul petrecut pe internet și măsuri de siguranță adoptate;
+          <br>
+          O evidență anuală a numărului de știri false detectate, cu grafice care ilustrează evoluția fenomenului; & etc
+
+          <br>
+          Acceseaza link-ul pentru a afla mai multe
+        </p>
+        <a href="Excel.xlsx" class="button1">Excel</a>
+      </div>
+      
+      <div class="a3">
+        <h3 style="color: red;text-align: center;">Word </h3>
+        <p>
+          Documentul conține:
+          <br>
+          Secțiuni explicative despre ce reprezintă o știre falsă, cum poate fi recunoscută și de ce este periculoasă;
+          <br>
+          Informații despre grupurile de vârstă cele mai vulnerabile în fața dezinformării și atacurilor cibernetice;
+        
+          <br>
+          Exemple și situații reale care ilustrează impactul manipulării prin internet.  <br>  <br>  <br>  <br>  <br>
+        </p>
+        <a href="Word.docx" class="button1">Word</a>
+      </div>
+    </div>
+
+    <div class="footer">
+     <b>OpenAI. Asistență și generare de conținut educațional prin ChatGPT (model GPT-4). Informații și formulări generate pentru prezentări, tabele statistice, descrieri și conținut educativ digital. Accesat în mai 2025, prin <a href="https://chat.openai.com.">https://chat.openai.com.</a>
+      <br>
+      <b>Imagine preluata de pe <a href="https://www.adobe.com/ro/">Adobe</a></b>
+     </b>
+      <img src="logoo.jpg" height="100px" >
+    </div>
+  </body>
+</html>
